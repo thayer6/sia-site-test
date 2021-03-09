@@ -1,7 +1,7 @@
 # PostgreSQL
 # ------------------------------------------------------------------------------
-POSTGRES_HOST=postgres
+POSTGRES_HOST=ec2-54-164-241-193.compute-1.amazonaws.com
 POSTGRES_PORT=5432
-POSTGRES_DB=sitetest
-POSTGRES_USER=debug
-POSTGRES_PASSWORD=debug
+POSTGRES_DB=d536b5mqahigf3
+POSTGRES_USER=yjkkntxcppkguk
+POSTGRES_PASSWORD=9c0fb3b6c4534ffc7d7f1dbaad369425f15a2121156ab48edeed922ef72e7404
