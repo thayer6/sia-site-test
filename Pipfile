@@ -18,6 +18,8 @@ gunicorn = "*"
 django-crispy-forms = "*"
 django = "*"
 django-allauth = "*"
+celery = "*"
+django-celery-beat = "*"
 
 [dev-packages]
 
