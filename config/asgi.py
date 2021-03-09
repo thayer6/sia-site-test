@@ -1,5 +1,5 @@
 """
-ASGI config for SITE project.
+ASGI config for SIA SITE project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
