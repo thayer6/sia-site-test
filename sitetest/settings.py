@@ -97,11 +97,11 @@ WSGI_APPLICATION = 'sitetest.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "sitetest",
-        "USER": "debug",
-        "HOST": "postgres",
+        "NAME": "d536b5mqahigf3",
+        "USER": "yjkkntxcppkguk",
+        "HOST": "ec2-54-164-241-193.compute-1.amazonaws.com",
         "PORT": 5432,
-        "PASSWORD": "debug",
+        "PASSWORD": "9c0fb3b6c4534ffc7d7f1dbaad369425f15a2121156ab48edeed922ef72e7404",
     }
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
