@@ -1,1 +1,1 @@
-web: gunicorn sitetest.wsgi
+web: gunicorn sitetest.wsgi --preload --workers 1
