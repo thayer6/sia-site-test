@@ -1,5 +1,114 @@
-<form method= "POST" action = "/app_page/">
-{% csrf_token %}
-<input type="text" name = "textfield">
-<button type = "submit">Enter text</button>
-</from>
+<!DOCTYPE html>
+<html>
+{% load static %}
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="{% static "css/main.css" %}" rel="stylesheet" />
+    <title>GATHER</title>
+</head>
+<body>
+    <div class="v6_71">
+        <div class="v9_7">
+            <div class="v9_8">
+                <div class="v9_9"></div>
+            </div>
+        </div>
+        <span class="v6_74">Social Impact Text Engine (SITE)</span>
+        <span class="v6_75">Wecome to SITE! Using the tools below, you can test out our engine to pull and explore data from the web, or from PDFs you upload yourself! </span>
+        <span class="v8_7">Search keywords and our web crawlers will track down URLs and PDFs related to your research </span>
+        <div class="v6_105">
+            <div class="v6_106"></div>
+            <div class="v6_107"></div>
+            <div class="v6_108">
+                <span class="v6_109">Non-Profit Information</span>
+                <span class="v6_110">More About Us</span>
+                <span class="v6_111">Statement of Inclusivity</span>
+                <span class="v6_112">Privacy Policy</span>
+                <span class="v6_113">Blog</span>
+            </div>
+            <div class="v6_114">
+                <span class="v6_115">Join Us</span>
+                <span class="v6_116">Volunteer </span>
+                <span class="v6_117">Partnerships</span>
+            </div>
+            <div class="v6_118">
+                <span class="v6_119">Contact Us</span>
+                <span class="v6_120">Ben@SIAinstitute.org</span>
+                <div class="v6_121">
+                    <div class="v6_122">
+                        <div class="v6_123"></div>
+                    </div>
+                    <div class="v6_124">
+                        <div class="v6_125"></div>
+                    </div>
+                    <div class="v6_126">
+                        <div class="v6_127"></div>
+                    </div>
+                    <div class="v6_128">
+                        <div class="v6_129"></div>
+                    </div>
+                </div>
+            </div>
+        <div class="v6_130">
+            <span class="v6_131">Follow Us</span>
+            <div class="v6_132"></div>
+        </div>
+    </div>
+    <div class="v8_3">
+        <div class="v8_4"></div>
+        <div class="v8_5">
+            <img src = "{% static "img/webcrawl.png" %}" width="70" height="70"></img>
+        </div>
+    </div>
+    <span class="v8_6">GATHER</span>
+    <span class="v8_11">Choose one of the two methods of delivery below for your results:</span>
+    <span class="v9_2">A report is generated to provide citation detaisl and URL links</span>
+    <span class="v9_3">Documents will appear as a ZIP file of PDF documents which you may download.</span>
+    <div class="v8_12"></div>
+    <span class="v8_13">Step 1</span>
+    <span class="v8_14">Enter your search keyword or phrase below, then click SEARCH.</span>
+
+    <span class="v9_15">* search rules go here</span>
+    <div class="v9_6"><div class="v9_4">
+        <div class="v8_9"></div>
+        <span class="v8_17">REPORT LIST</span>
+    </div>
+</div>
+<div class="v9_5">
+    <div class="v9_0"></div>
+    <span class="v9_1">DOCUMENTS</span>
+</div>
+<div class="v9_11">
+    <form method= "POST" action = "/app_page/">
+    {% csrf_token %}
+    <input type="text" name = "textfield" style="font-size:18pt; width: 550px; height: 50px">
+    <button type = "submit" class="v9_13">SEARCH</span>
+    </form>
+</div>
+<div class="v8_15"></div>
+<span class="v8_16">Step 2</span>
+<div class="v17_179">
+<span class="v17_180">Return to SITE start</span>
+<div class="v17_181"></div>
+</div>
+<div class="v6_133"></div>
+<div class="v6_134">
+<div class="v6_135">
+<div class="v6_136">
+<div class="v6_137">
+</div>
+</div>
+<span class="v6_138">Social Impact Analytics Institute</span>
+</div>
+</div>
+<div class="name"></div>
+<div class="name">
+</div>
+<div class="name">
+</div>
+<div class="name">
+</div>
+</div>
+</body>
+</html>
