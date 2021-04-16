@@ -63,22 +63,27 @@
     </div>
     <span class="v8_6">GATHER</span>
     <span class="v8_11">Choose one of the two methods of delivery below for your results:</span>
-    <span class="v9_2">A report is generated to provide citation detaisl and URL links</span>
+    <span class="v9_2">A report is generated to provide citation details and URL links</span>
     <span class="v9_3">Documents will appear as a ZIP file of PDF documents which you may download.</span>
     <div class="v8_12"></div>
     <span class="v8_13">Step 1</span>
     <span class="v8_14">Enter your search keyword or phrase below, then click SEARCH.</span>
 
     <span class="v9_15">* search rules go here</span>
-    <div class="v9_6"><div class="v9_4">
-        <div class="v8_9"></div>
-        <span class="v8_17">REPORT LIST</span>
+    <a href="{% url 'report_download' %}">
+    <div class="v9_6">
+        <div class="v9_4">
+            <div class="v8_9"></div>
+            <span class="v8_17">REPORT LIST</span>
     </div>
+    </a>
 </div>
+<a href="{% url 'zip_download' %}">
 <div class="v9_5">
     <div class="v9_0"></div>
     <span class="v9_1">DOCUMENTS</span>
 </div>
+</a>
 <div class="v9_11">
     <form method= "POST" action = "/app_page/">
     {% csrf_token %}
@@ -88,9 +93,13 @@
 </div>
 <div class="v8_15"></div>
 <span class="v8_16">Step 2</span>
+<a href="{% url 'home' %}">
 <div class="v17_179">
 <span class="v17_180">Return to SITE start</span>
-<div class="v17_181"></div>
+<div class="v17_181">
+<img src = "{% static "img/backarrow.png" %}" width="50" height="50"></img>
+</div>
+</a>
 </div>
 <div class="v6_133"></div>
 <div class="v6_134">

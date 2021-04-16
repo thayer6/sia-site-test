@@ -15,7 +15,7 @@ Including another URLconf
 """
 
 from re import template
-from testapp.views import appview
+from testapp.views import appview, report, zip
 from django.contrib import admin
 from django.urls import path
 
@@ -25,5 +25,7 @@ from django.views.generic import TemplateView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", TemplateView.as_view(template_name = "home.html"), name = "home"),
-    path("app_page/", appview, name = "app_page") # add test page
+    path("app_page/", appview, name = "app_page"), # add test page
+    path("report_download/", report, name = "report_download"),
+    path("zip_download/", zip, name = "zip_download"),
 ]
