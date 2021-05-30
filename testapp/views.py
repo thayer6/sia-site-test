@@ -2,7 +2,7 @@
 from django.shortcuts import render
 from testapp.models import Text
 from django.shortcuts import HttpResponse
-from reportlab.pdfgen.canvas import Canvas
+#from reportlab.pdfgen.canvas import Canvas
 from fpdf import FPDF
 # Create your views here.
 

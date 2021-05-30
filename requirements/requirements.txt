@@ -60,4 +60,15 @@ django-extensions==3.1.0  # https://github.com/django-extensions/django-extensio
 django-coverage-plugin==1.8.0  # https://github.com/nedbat/django_coverage_plugin
 pytest-django==4.1.0  # https://github.com/pytest-dev/pytest-django
 
+nltk==3.4.5
+requests==2.24.0
+pandas==1.1.5
+chromedriver_autoinstaller==0.2.2
+tqdm==4.50.2
+selenium==3.141.0
+beautifulsoup4==4.9.3
+fpdf==1.7.2
+#PyMuPDF==1.14.20
+#fitz==0.0.1.dev2
+
 django-heroku
