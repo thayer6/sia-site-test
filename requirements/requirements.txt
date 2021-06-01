@@ -68,7 +68,7 @@ tqdm==4.50.2
 selenium==3.141.0
 beautifulsoup4==4.9.3
 fpdf==1.7.2
-#PyMuPDF==1.14.20
+PyMuPDF==1.18.13
 #fitz==0.0.1.dev2
 
 django-heroku
